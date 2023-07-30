@@ -1,0 +1,52 @@
+#icon-cricket{
+    height: 2rem;
+}
+.ashes-vid{
+    /* background-color: black; */
+    height: 50%;
+}
+.insides{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 90vh;
+    gap: 5%;
+}
+.Text{
+    font-size: 7rem;
+    color: white;
+}
+.middle-text{
+    display: inline-flex;
+    height: 50px;
+    width: 200px;
+    background-color: burlywood;
+    position: relative;
+    /* margin: 25px; */
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: medium ;
+    font-weight: 500;
+}
+.middle-text{
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.vedio{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: fill;
+}
+#column-1{
+    padding: 0 20%;
+}
